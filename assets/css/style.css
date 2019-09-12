@@ -96,7 +96,7 @@ a {
 }
 
 #profile1 {
-    width: 100px;
+    max-width: 40%;
     float: left;
     margin: 8px 15px;
 
@@ -204,5 +204,27 @@ footer {
     }
     .port-photos img {
         min-width: 200px;
+    }
+    #profile1 {
+        max-width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #profile1 {
+        max-width: 50%;
+    }
+    #main {
+        margin-bottom: 150px;
+    }
+
+
+}
+@media screen and (max-width: 980px) {
+    #main {
+        max-width: 760px;
+        clear:both;
+        float: left;
     }
 }
